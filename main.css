@@ -1,0 +1,55 @@
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.big_div{
+    width:320px;
+    height:320px;
+    position:relative;
+    background-color:dodgerblue;
+}
+
+
+
+.background_div{
+    width:300px;
+    height:300px;
+    position:absolute;
+    top:0;
+    background-color:red;
+}
+
+
+.shadow_div{
+    width:300px;
+    height:300px;
+    position:absolute;
+    top:0;
+    transition:1s;
+}
+
+
+#change_button , #change_button_two{
+    margin-top:30px;
+    outline:none;
+}
+
+
+@keyframes moveLeft{
+    100%{
+    margin-left:-300px;
+    }
+}
+
+
+
+
+
+@keyframes moveRight{
+    100%{
+    margin-left:0px;
+    }
+}
+
